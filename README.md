@@ -94,7 +94,7 @@ agentic-code-analyzer/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
@@ -163,6 +163,7 @@ Potential Extensions
 
 License
 MIT License.
+
 
 
 
