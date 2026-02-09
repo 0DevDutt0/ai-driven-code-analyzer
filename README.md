@@ -70,7 +70,7 @@ This specialization mirrors how production AI systems balance performance, accur
 
 ## Project Structure
 
-agentic-code-analyzer/
+'''agentic-code-analyzer/
 │
 ├── app/
 │ ├── main.py # Interactive entry point
@@ -93,7 +93,7 @@ agentic-code-analyzer/
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+└── .gitignore'''
 
 
 ---
@@ -163,3 +163,4 @@ Potential Extensions
 
 License
 MIT License.
+
