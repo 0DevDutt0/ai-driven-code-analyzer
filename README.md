@@ -70,32 +70,30 @@ This specialization mirrors how production AI systems balance performance, accur
 
 ## Project Structure
 
-'''bash
+```bash
 agentic-code-analyzer/
-│
 ├── app/
-│ ├── main.py # Interactive entry point
-│ ├── graph.py # LangGraph workflow definition
-│ ├── llms.py # LLM configuration
-│ ├── schemas.py # Shared agent state
-│ │
-│ ├── agents/
-│ │ ├── planner.py
-│ │ ├── analyzer.py
-│ │ ├── fixer.py
-│ │ └── reviewer.py
-│ │
-│ └── tools/
-│ └── filesystem.py # Controlled filesystem access
+│   ├── main.py          # Interactive entry point
+│   ├── graph.py         # LangGraph workflow definition
+│   ├── llms.py          # LLM configuration
+│   ├── schemas.py       # Shared agent state
+│   │
+│   ├── agents/
+│   │   ├── planner.py
+│   │   ├── analyzer.py
+│   │   ├── fixer.py
+│   │   └── reviewer.py
+│   │
+│   └── tools/
+│       └── filesystem.py   # Controlled filesystem access
 │
 ├── docker/
-│ └── Dockerfile
+│   └── Dockerfile
 │
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-'''
 
 
 ---
@@ -165,5 +163,6 @@ Potential Extensions
 
 License
 MIT License.
+
 
 
